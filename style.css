@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap');
+
+
+header {
+    background-color: #c11515;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0px;
+    bottom: fit-content;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: "Geist Mono", monospace;
+}
+
+* { 
+    margin: 0;
+  }
+
+.sticky__nav {
+    transition: 0.3s ease-in-out;
+    display: flex;
+    justify-content: space-around;
+    font-weight: 600;
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    margin-top: 30px;
+    height: 220px;
+    text-align: center;
+    background-image: url(background.png);
+}
+
+.footer__title {
+    padding-top: 60px;
+}
+
+.footer__text {
+    margin-top: 20px;
+}
+
+.footer__button {
+    display:inline-block;
+    margin-top: 20px;
+    padding: 15px 40px 15px 40px;
+    font-size: 20px;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    transition: all .3s;
+    z-index: 1;
+}
+
+.block {
+    transition: 0.7s ease-in-out;
+    width: 100%;
+    height: fit-content;
+    padding: 20px;
+    line-height: 24px;
+    box-sizing: border-box;
+}
+
+.main__content {
+    overflow-x: hidden;
+}
+
+.main__slogan {
+    width: 40%;
+    box-sizing: content-box;
+}
+
+.main__image-block {
+    display: flex;
+    justify-content: center;
+}
+
+.main__info {
+    width: 50%;
+    float: right;
+    text-align: center;
+}
+
+.main__about-game {
+    display: flex;
+    clear: right;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main__image {
+    height: 500px;
+}
+
+.main__about-image {
+    width: 100%;
+}
+
+.about__hd {
+    transition: 0.5s ease-in-out;
+    margin-right: 3%;
+}
+
+.about__dlc {
+    transition: 1.5s ease-in-out;
+    margin-top: 2%;
+}
+
+.about {
+    width: 37%;
+    text-align: center;
+}
+
+.about__weapon {
+    width: 45%;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+span {
+    font-weight: bold;
+}
+
+.weapon__text {
+    transition: 0.4s ease-in-out;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.weapon__list {
+    transition: 0.4s ease-in-out;
+    padding-top: 10px;
+    position: absolute;
+}
